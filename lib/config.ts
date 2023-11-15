@@ -55,21 +55,21 @@ export const language: string = getSiteConfig('language', 'en')
 
 // social accounts
 export const twitter: string | null = getSiteConfig('twitter', null)
-export const roseli0423: string | null = getSiteConfig('roseli0423', null)
+export const mastodon: string | null = getSiteConfig('mastodon', null)
 export const github: string | null = getSiteConfig('github', null)
 export const youtube: string | null = getSiteConfig('youtube', null)
 export const linkedin: string | null = getSiteConfig('linkedin', null)
 export const newsletter: string | null = getSiteConfig('newsletter', null)
 export const zhihu: string | null = getSiteConfig('zhihu', null)
 
-export const getroseli0423Handle = (): string | null => {
-  if (!roseli0423) {
+export const getMastodonHandle = (): string | null => {
+  if (!mastodon) {
     return null
   }
 
-  // Since roseli0423 is decentralized, handles include the instance domain name.
-  // e.g. @example@roseli0423.social
-  const url = new URL(roseli0423)
+  // Since Mastodon is decentralized, handles include the instance domain name.
+  // e.g. @example@mastodon.social
+  const url = new URL(mastodon)
   return `${url.pathname.slice(1)}@${url.hostname}`
 }
 
