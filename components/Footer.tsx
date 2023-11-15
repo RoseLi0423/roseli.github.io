@@ -55,7 +55,7 @@ export const FooterImpl: React.FC = () => {
         {config.twitter && (
           <a
             className={styles.twitter}
-            href={`https://twitter.com/${config.twitter}`}
+            href={`https://twitter.com/lroseli0423`}
             title={`Twitter @${config.twitter}`}
             target='_blank'
             rel='noopener noreferrer'
@@ -90,7 +90,7 @@ export const FooterImpl: React.FC = () => {
         {config.github && (
           <a
             className={styles.github}
-            href={`https://github.com/${config.github}`}
+            href={`https://github.com/roseli0423`}
             title={`GitHub @${config.github}`}
             target='_blank'
             rel='noopener noreferrer'
@@ -102,7 +102,7 @@ export const FooterImpl: React.FC = () => {
         {config.linkedin && (
           <a
             className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.linkedin}`}
+            href={`https://www.linkedin.com/in/roseli0423`}
             title={`LinkedIn ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
