@@ -71,7 +71,7 @@ export const FooterImpl: React.FC = () => {
             title={`Roseli0423 ${config.getRoseli0423Handle()}`}
             rel='me'
           >
-            <FaRoseli0423 />
+            <FaMastodon />
           </a>
         )}
 
