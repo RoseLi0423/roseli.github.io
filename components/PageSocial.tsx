@@ -16,7 +16,7 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   config.twitter && {
     name: 'twitter',
-    href: `https://twitter.com/${config.twitter}`,
+    href: `https://twitter.com/lroseli0423}`,
     title: `Twitter @${config.twitter}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
@@ -27,7 +27,7 @@ const socialLinks: SocialLink[] = [
 
   config.github && {
     name: 'github',
-    href: `https://github.com/${config.github}`,
+    href: `https://github.com/roseli0423}`,
     title: `GitHub @${config.github}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
@@ -38,7 +38,7 @@ const socialLinks: SocialLink[] = [
 
   config.linkedin && {
     name: 'linkedin',
-    href: `https://www.linkedin.com/in/${config.linkedin}`,
+    href: `www.linkedin.com/in/roseli0423`,
     title: `LinkedIn ${config.author}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
