@@ -64,11 +64,11 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.roseli0423 && (
+        {config.mastodon && (
           <a
-            className={styles.roseli0423}
-            href={config.roseli0423}
-            title={`Roseli0423 ${config.getRoseli0423Handle()}`}
+            className={styles.mastodon}
+            href={config.mastodon}
+            title={`Mastodon ${config.getMastodonHandle()}`}
             rel='me'
           >
             <FaMastodon />
